@@ -9,6 +9,8 @@ def recursive_search(numbers, target, start = 0):
 numbers = [34, 67, 23, 54, 89, 14, 43]
 numbers.sort()
 target = int(input("Enter a number to search for: "))
+
+# Checking if the number is in the list
 found = recursive_search(numbers, target)
 
 if found:

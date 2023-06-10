@@ -1,5 +1,6 @@
 import random
 
+# Function to generate random binary number
 def generate_random_binary_number():
     number_string = ""
     for i in range(4):
@@ -7,6 +8,7 @@ def generate_random_binary_number():
         number_string += str(random_number)
     return number_string
 
+# Function to convert binary number to decimal
 def binary_to_decimal(binary):
     decimal = 0
     power = len(binary) - 1
